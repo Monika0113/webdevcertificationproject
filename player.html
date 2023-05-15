@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <script src="./scriptPlayer.js"></script>
+    <title>Player Details</title>
+  </head>
+  <body>
+    <header>
+      <div id="navMenu">
+        <div id="mainMenu">
+          <a id="logo" href="./index.html"
+            ><img id="iplLogo" src="./images/ipl logo.png"
+          /></a>
+        </div>
+        <div id="searchingMenu">
+          <div id="search-wrapper">
+            <i id="searchIco" class="fas fa-search" aria-hidden="true"></i>
+            <input
+              id="search-box"
+              type="text"
+              name="search"
+              placeholder="Search Team"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="selectedPlayerDetailsDiv">
+        <div id="playerPic">
+          <img src="" alt="" />
+        </div>
+        <div id="selectedPlayerDetails">
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Price</th>
+              <th>Playing Status</th>
+              <th>Role</th>
+            </tr>
+            <tr>
+              <td id="playerName"></td>
+              <td id="playerTeam"></td>
+              <td id="playerPrice"></td>
+              <td id="playerPlayingStatus"></td>
+              <td id="playerRole"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footerDiv">
+        <p>-- IPL TEAMS INFO FRONTEND PROJECT "EDYODA DIGITAL UNIVERSITY" --</p>
+      </div>
+    </footer>
+  </body>
+</html>
